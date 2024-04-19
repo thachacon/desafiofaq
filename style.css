@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(275, 100%, 97%);
+    font-family: "Work Sans", sans-serif;
+}
+
+#title {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    color: hsl(292, 42%, 14%);
+}
+
+#title img {
+    margin: 40px 0px 20px 40px;
+}
+
+#title h1 {
+    margin: 30px 0px 20px 20px;
+}
+
+#card {
+    background-color: white;
+    width: 600px;
+    height: auto;
+    position:absolute;
+    top: 20%;
+    left: 30%;
+    border-radius: 10px;
+    display:flexbox;
+    flex-direction: column;
+}
+
+ul.separator {
+    font-weight: bolder;
+    font-size: 16px;
+    color: hsl(292, 42%, 14%);
+	list-style: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+	width: 100%;
+}
+
+hr {
+    border-top: rgb(0, 0, 255);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.answers {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+    margin-top: 20px;
+    display: none;
+}
+
+.botaomenos {
+    display:none;
+}
+
+button {
+    border: 0px;
+    background-color: white;
+}
+
